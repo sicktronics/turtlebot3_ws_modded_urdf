@@ -1,0 +1,81 @@
+[0.053s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_example:/home/parker/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/parker/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parker/turtlebot3_ws/install/turtlebot3_fake_node
+[0.178s] -- The C compiler identification is GNU 9.4.0
+[0.300s] -- The CXX compiler identification is GNU 9.4.0
+[0.312s] -- Check for working C compiler: /usr/bin/cc
+[0.451s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.452s] -- Detecting C compiler ABI info
+[0.592s] -- Detecting C compiler ABI info - done
+[0.619s] -- Detecting C compile features
+[0.620s] -- Detecting C compile features - done
+[0.627s] -- Check for working CXX compiler: /usr/bin/c++
+[0.785s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.788s] -- Detecting CXX compiler ABI info
+[0.947s] -- Detecting CXX compiler ABI info - done
+[0.988s] -- Detecting CXX compile features
+[0.988s] -- Detecting CXX compile features - done
+[0.991s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.075s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.076s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.463s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.527s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.601s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.742s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.799s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.960s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.129s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.245s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.327s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.331s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.332s] -- Looking for pthread.h
+[2.437s] -- Looking for pthread.h - found
+[2.438s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.538s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.539s] -- Looking for pthread_create in pthreads
+[2.621s] -- Looking for pthread_create in pthreads - not found
+[2.621s] -- Looking for pthread_create in pthread
+[2.722s] -- Looking for pthread_create in pthread - found
+[2.723s] -- Found Threads: TRUE  
+[3.001s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.131s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[3.152s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[3.567s] -- Found turtlebot3_msgs: 2.2.1 (/home/parker/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[3.821s] -- Configuring done
+[3.838s] -- Generating done
+[3.841s] -- Build files have been written to: /home/parker/turtlebot3_ws/build/turtlebot3_fake_node
+[3.853s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_example:/home/parker/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/parker/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parker/turtlebot3_ws/install/turtlebot3_fake_node
+[3.859s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_example:/home/parker/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/parker/turtlebot3_ws/build/turtlebot3_fake_node -- -j4 -l4
+[3.911s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[3.966s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[22.870s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[24.287s] [100%] Built target turtlebot3_fake_node
+[24.343s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_example:/home/parker/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/parker/turtlebot3_ws/build/turtlebot3_fake_node -- -j4 -l4
+[24.687s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_example:/home/parker/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/parker/turtlebot3_ws/build/turtlebot3_fake_node
+[24.717s] -- Install configuration: ""
+[24.718s] -- Execute custom install script
+[24.719s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[24.738s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[24.756s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[24.775s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[24.793s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[24.816s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[24.837s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[24.885s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[24.931s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[24.973s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[25.021s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[25.076s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[25.126s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[25.153s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[25.173s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[25.192s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[25.211s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[25.230s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[25.249s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[25.269s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[25.289s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.307s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.327s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[25.346s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[25.366s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[25.402s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy PYTHONPATH=/home/parker/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/build/turtlebot3_example:/home/parker/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/parker/turtlebot3_ws/build/turtlebot3_fake_node

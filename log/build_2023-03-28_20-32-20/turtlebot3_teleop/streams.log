@@ -1,0 +1,17 @@
+[1.140s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/parker/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/home/parker/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/parker/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps install_data
+[1.680s] running develop
+[1.990s] running egg_info
+[1.991s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.991s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.991s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.992s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.992s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[2.082s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.084s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.171s] running build_ext
+[2.171s] Creating /home/parker/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3-teleop.egg-link (link to .)
+[2.172s] Installing teleop_keyboard script to /home/parker/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.173s] 
+[2.173s] Installed /home/parker/turtlebot3_ws/build/turtlebot3_teleop
+[2.173s] running install_data
+[2.253s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/parker/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/home/parker/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/parker/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps install_data

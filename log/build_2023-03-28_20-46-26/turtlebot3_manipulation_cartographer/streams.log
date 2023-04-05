@@ -1,0 +1,31 @@
+[0.145s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_cartographer -- -j4 -l4
+[0.211s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.288s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.893s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.329s] -- Configuring done
+[1.334s] -- Generating done
+[1.336s] -- Build files have been written to: /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_cartographer
+[1.422s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_cartographer -- -j4 -l4
+[1.566s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_cartographer
+[1.656s] -- Install configuration: ""
+[1.675s] -- Execute custom install script
+[1.676s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/config/turtlebot3_2d.lua
+[1.682s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/launch/cartographer.launch.py
+[1.682s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/launch/occupancy_grid.launch.py
+[1.683s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/rviz/cartographer.rviz
+[1.687s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_cartographer
+[1.690s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_cartographer
+[1.698s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/ament_prefix_path.sh
+[1.699s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/ament_prefix_path.dsv
+[1.699s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/path.sh
+[1.699s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/path.dsv
+[1.700s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.bash
+[1.700s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.sh
+[1.701s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.zsh
+[1.703s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.dsv
+[1.705s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.dsv
+[1.738s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/ament_index/resource_index/packages/turtlebot3_manipulation_cartographer
+[1.739s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/cmake/turtlebot3_manipulation_cartographerConfig.cmake
+[1.739s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/cmake/turtlebot3_manipulation_cartographerConfig-version.cmake
+[1.739s] -- Up-to-date symlink: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.xml
+[1.769s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_cartographer

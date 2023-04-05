@@ -1,0 +1,85 @@
+[0.030s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop': AMENT_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_simulations:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_fake_node:/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3_gazebo:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/parker/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop
+[0.162s] -- The C compiler identification is GNU 9.4.0
+[0.297s] -- The CXX compiler identification is GNU 9.4.0
+[0.309s] -- Check for working C compiler: /usr/bin/cc
+[0.441s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.441s] -- Detecting C compiler ABI info
+[0.588s] -- Detecting C compiler ABI info - done
+[0.616s] -- Detecting C compile features
+[0.616s] -- Detecting C compile features - done
+[0.625s] -- Check for working CXX compiler: /usr/bin/c++
+[0.771s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.771s] -- Detecting CXX compiler ABI info
+[0.930s] -- Detecting CXX compiler ABI info - done
+[0.954s] -- Detecting CXX compile features
+[0.956s] -- Detecting CXX compile features - done
+[0.963s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.023s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.024s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.360s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.420s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.559s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.712s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.758s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.039s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.045s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.050s] -- Looking for pthread.h
+[2.165s] -- Looking for pthread.h - found
+[2.165s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.266s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.266s] -- Looking for pthread_create in pthreads
+[2.350s] -- Looking for pthread_create in pthreads - not found
+[2.350s] -- Looking for pthread_create in pthread
+[2.441s] -- Looking for pthread_create in pthread - found
+[2.442s] -- Found Threads: TRUE  
+[2.728s] -- Found turtlebot3_manipulation_bringup: 1.2.0 (/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/cmake)
+[2.728s] -- Found turtlebot3_manipulation_moveit_config: 1.2.0 (/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/cmake)
+[2.729s] -- Found turtlebot3_manipulation_description: 1.2.0 (/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake)
+[2.733s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.789s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.922s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[3.502s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.639s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[3.676s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.832s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.835s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.835s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/parker/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop/include>
+[3.835s] -- Configured cppcheck exclude dirs and/or files: 
+[3.838s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.839s] -- Configured cpplint exclude dirs and/or files: 
+[3.842s] -- Added test 'lint_cmake' to check CMake code style
+[3.845s] -- Added test 'uncrustify' to check C / C++ code style
+[3.847s] -- Configured uncrustify additional arguments: 
+[3.847s] -- Added test 'xmllint' to check XML markup files
+[3.856s] -- Configuring done
+[3.888s] -- Generating done
+[3.892s] -- Build files have been written to: /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop
+[3.911s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop' returned '0': AMENT_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_simulations:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_fake_node:/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3_gazebo:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/parker/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop
+[3.916s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop': AMENT_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_simulations:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_fake_node:/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3_gazebo:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop -- -j4 -l4
+[4.001s] [35m[1mScanning dependencies of target turtlebot3_manipulation_teleop[0m
+[4.144s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_teleop.dir/src/turtlebot3_manipulation_teleop.cpp.o[0m
+[11.916s] [100%] [32m[1mLinking CXX executable turtlebot3_manipulation_teleop[0m
+[12.277s] [100%] Built target turtlebot3_manipulation_teleop
+[12.292s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop' returned '0': AMENT_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_simulations:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_fake_node:/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3_gazebo:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop -- -j4 -l4
+[12.339s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop': AMENT_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_simulations:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_fake_node:/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3_gazebo:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop
+[12.352s] -- Install configuration: ""
+[12.353s] -- Execute custom install script
+[12.354s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/lib/turtlebot3_manipulation_teleop/turtlebot3_manipulation_teleop
+[12.371s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_teleop
+[12.386s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_teleop
+[12.404s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/ament_prefix_path.sh
+[12.422s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/ament_prefix_path.dsv
+[12.439s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/path.sh
+[12.451s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/path.dsv
+[12.468s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.bash
+[12.486s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.sh
+[12.499s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.zsh
+[12.516s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.dsv
+[12.533s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.dsv
+[12.545s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/ament_index/resource_index/packages/turtlebot3_manipulation_teleop
+[12.562s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/cmake/turtlebot3_manipulation_teleopConfig.cmake
+[12.579s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/cmake/turtlebot3_manipulation_teleopConfig-version.cmake
+[12.591s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.xml
+[12.616s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop' returned '0': AMENT_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_moveit_config:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description:/home/parker/turtlebot3_ws/install/turtlebot3:/home/parker/turtlebot3_ws/install/turtlebot3_simulations:/home/parker/turtlebot3_ws/install/turtlebot3_bringup:/home/parker/turtlebot3_ws/install/turtlebot3_node:/home/parker/turtlebot3_ws/install/turtlebot3_navigation2:/home/parker/turtlebot3_ws/install/turtlebot3_fake_node:/home/parker/turtlebot3_ws/install/turtlebot3_msgs:/home/parker/turtlebot3_ws/install/turtlebot3_gazebo:/home/parker/turtlebot3_ws/install/turtlebot3_description:/home/parker/turtlebot3_ws/install/turtlebot3_cartographer:/home/parker/turtlebot3_ws/install/dynamixel_sdk_examples:/home/parker/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/parker/turtlebot3_ws/install/dynamixel_sdk:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_teleop

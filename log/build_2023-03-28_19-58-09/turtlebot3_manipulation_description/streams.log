@@ -1,0 +1,65 @@
+[0.074s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/parker/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description
+[0.443s] -- The C compiler identification is GNU 9.4.0
+[0.726s] -- The CXX compiler identification is GNU 9.4.0
+[0.744s] -- Check for working C compiler: /usr/bin/cc
+[0.886s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.889s] -- Detecting C compiler ABI info
+[1.033s] -- Detecting C compiler ABI info - done
+[1.086s] -- Detecting C compile features
+[1.087s] -- Detecting C compile features - done
+[1.099s] -- Check for working CXX compiler: /usr/bin/c++
+[1.277s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.280s] -- Detecting CXX compiler ABI info
+[1.420s] -- Detecting CXX compiler ABI info - done
+[1.447s] -- Detecting CXX compile features
+[1.448s] -- Detecting CXX compile features - done
+[1.460s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.540s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.540s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.052s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.381s] -- Configuring done
+[2.386s] -- Generating done
+[2.390s] -- Build files have been written to: /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description
+[2.402s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/parker/turtlebot3_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description
+[2.404s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description -- -j4 -l4
+[2.573s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description -- -j4 -l4
+[2.618s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description
+[2.637s] -- Install configuration: ""
+[2.638s] -- Execute custom install script
+[2.640s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch/model.launch.py
+[2.659s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz/model.rviz
+[2.674s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro
+[2.693s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_manipulation.urdf.xacro
+[2.710s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[2.728s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/materials.xacro
+[2.746s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro
+[2.764s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro
+[2.786s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl
+[2.814s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl
+[2.843s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl
+[2.850s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl
+[2.869s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl
+[2.895s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl
+[2.915s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl
+[2.934s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl
+[2.952s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl
+[2.973s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl
+[2.988s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl
+[3.013s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro
+[3.031s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/turtlebot3_manipulation_description.dsv
+[3.053s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_description
+[3.075s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_description
+[3.093s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.sh
+[3.111s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.dsv
+[3.129s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.sh
+[3.147s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.dsv
+[3.178s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.bash
+[3.205s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.sh
+[3.228s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.zsh
+[3.249s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.dsv
+[3.276s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv
+[3.303s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/packages/turtlebot3_manipulation_description
+[3.348s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig.cmake
+[3.389s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig-version.cmake
+[3.427s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.xml
+[3.633s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parker/turtlebot3_ws/install/turtlebot3_teleop:/home/parker/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/parker/turtlebot3_ws/build/turtlebot3_manipulation_description

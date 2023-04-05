@@ -1,0 +1,51 @@
+[0.216s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/parker/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parker/turtlebot3_ws/install/turtlebot3_navigation2
+[0.598s] -- The C compiler identification is GNU 9.4.0
+[0.948s] -- The CXX compiler identification is GNU 9.4.0
+[0.971s] -- Check for working C compiler: /usr/bin/cc
+[1.456s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.458s] -- Detecting C compiler ABI info
+[1.884s] -- Detecting C compiler ABI info - done
+[1.942s] -- Detecting C compile features
+[1.944s] -- Detecting C compile features - done
+[1.958s] -- Check for working CXX compiler: /usr/bin/c++
+[2.575s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.578s] -- Detecting CXX compiler ABI info
+[3.044s] -- Detecting CXX compiler ABI info - done
+[3.115s] -- Detecting CXX compile features
+[3.117s] -- Detecting CXX compile features - done
+[3.127s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.226s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.226s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.961s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.287s] -- Configuring done
+[4.295s] -- Generating done
+[4.300s] -- Build files have been written to: /home/parker/turtlebot3_ws/build/turtlebot3_navigation2
+[4.310s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/parker/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/parker/turtlebot3_ws/install/turtlebot3_navigation2
+[4.311s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parker/turtlebot3_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[4.482s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/parker/turtlebot3_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[4.662s] Invoking command in '/home/parker/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parker/turtlebot3_ws/build/turtlebot3_navigation2
+[4.695s] -- Install configuration: ""
+[4.698s] -- Execute custom install script
+[4.699s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[4.719s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+[4.751s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
+[4.785s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[4.845s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[4.901s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[4.929s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[4.952s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[4.976s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[5.005s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[5.023s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[5.041s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[5.068s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[5.103s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[5.126s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[5.159s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[5.184s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[5.226s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[5.252s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[5.292s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[5.316s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[5.334s] -- Symlinking: /home/parker/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[5.367s] Invoked command in '/home/parker/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/parker/turtlebot3_ws/build/turtlebot3_navigation2
